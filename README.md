@@ -27,9 +27,10 @@ nano /var/www/html/info.php
 <?php phpinfo(); ?>
 ```
 ```
-
+#
 # Simpan file dengan menekan Ctrl+X, ketik Y, tekan Enter. Melalui web browser, buka alamat IP_Address/info.php. Informasi service PHP yang berjalan di server akan tampil.
-
+#
+```
 ```
 apt-get -y install phpmyadmin
 ```
