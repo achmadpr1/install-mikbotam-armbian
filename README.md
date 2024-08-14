@@ -62,7 +62,7 @@ git clone https://github.com/achmadpr1/mikbotam
 chmod -R 755 mikbotam
 ```
 ```
-chown -R www-data:www-data mikhmonv3
+chown -R www-data:www-data mikbotam
 ```
 
 Pasang di etc/rc.local
