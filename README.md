@@ -53,5 +53,22 @@ FLUSH PRIVILEGES;
 exit
 ```
 ```
+cd /var/www/html
+```
+```
+git clone https://github.com/laksa19/mikhmonv3
+```
+```
+chmod -R 755 mikbotam
+```
+```
+chown -R www-data:www-data mikhmonv3
+```
+
+Pasang di etc/rc.local
+
+```
+sleep 10 && cd /var/www/html/mikbotam/Saldo && php Core_Saldo_Nonsaldo.php > /dev/null 2>&1&
+```
 
 
