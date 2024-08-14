@@ -24,8 +24,6 @@ service apache2 restart
 nano /var/www/html/info.php
 ```
 ```
-Masukkan skrip berikut:
-```
 <?php phpinfo(); ?>
 ```
 ```
