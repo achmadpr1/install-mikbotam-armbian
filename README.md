@@ -56,7 +56,7 @@ exit
 cd /var/www/html
 ```
 ```
-git clone https://github.com/laksa19/mikhmonv3
+git clone https://github.com/achmadpr1/mikbotam
 ```
 ```
 chmod -R 755 mikbotam
