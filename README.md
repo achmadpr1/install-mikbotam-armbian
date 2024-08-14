@@ -71,4 +71,10 @@ Pasang di etc/rc.local
 sleep 10 && cd /var/www/html/mikbotam/Saldo && php Core_Saldo_Nonsaldo.php > /dev/null 2>&1&
 ```
 
+```
+sudo curl -s https://raw.githubusercontent.com/achmadpr1/install-mikbotam-armbian/main/cek_mikbotam.sh -o /opt/cek_mikbotam.sh
+```
+```
+chmod -R 755 /opt/cek_mikbotam.sh
+```
 
