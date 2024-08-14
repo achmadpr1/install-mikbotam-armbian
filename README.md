@@ -28,7 +28,7 @@ nano /var/www/html/info.php
 ```
 ```
 
-Simpan file dengan menekan Ctrl+X, ketik Y, tekan Enter. Melalui web browser, buka alamat IP_Address/info.php. Informasi service PHP yang berjalan di server akan tampil.
+# Simpan file dengan menekan Ctrl+X, ketik Y, tekan Enter. Melalui web browser, buka alamat IP_Address/info.php. Informasi service PHP yang berjalan di server akan tampil.
 
 ```
 ```
