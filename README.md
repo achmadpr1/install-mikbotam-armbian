@@ -1,5 +1,8 @@
 # install-mikbotam-armbian
 ```
+sudo timedatectl set-timezone Asia/Jakarta
+```
+```
 apt update
 ```
 ```
