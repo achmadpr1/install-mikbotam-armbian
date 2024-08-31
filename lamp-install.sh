@@ -26,7 +26,8 @@ echo "Enter a password for PHPMyAdmin root user:"
 read -s PMA_ROOT_PASS
 
 # Set PHPMyAdmin root password
-sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY '$PMA_ROOT_PASS';"
+sudo mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '$PMA_ROOT_PASS' WITH GRANT OPTION;"
+sudo mysql -e "FLUSH PRIVILEGES;"
 
 # Configure PHPMyAdmin with Apache
 sudo echo 'Include /etc/phpmyadmin/apache.conf' >> /etc/apache2/apache2.conf
